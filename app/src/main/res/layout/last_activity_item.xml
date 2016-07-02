@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:minHeight="?attr/listPreferredItemHeightLarge">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/commodityNametv"
+        android:textColor="@color/text"
+        android:textSize="17dp"
+        android:text="7" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textColor="@color/text"
+        android:id="@+id/varietytv"
+        android:textSize="17dp"
+        android:background="#c9f47d7d" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="@color/text"
+        android:id="@+id/pricetv"
+        android:textSize="17dp"
+        android:background="#d26677cc"
+        android:layout_marginBottom="5dp" />
+</LinearLayout>
